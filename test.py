@@ -56,8 +56,8 @@ class NDimensionalArray:
 
 # 测试示例
 if __name__ == "__main__":
-    # 创建一个3维的N维数组（3x4x5），默认值为1
-    array = NDimensionalArray((3, 4, 5, 6), default_value=2)
+    # 创建一个4维的数组（3x4x5x6），默认值为1
+    array = NDimensionalArray((3, 4, 5, 6), default_value=1)
     print("Original Array:")
     print(array.data)
 
